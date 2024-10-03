@@ -1,6 +1,6 @@
 # **MACPO: Weak-to-Strong Alignment via Multi-Agent Contrastive Preference Optimization**
 
-![framework](/Users/lvyougang/Downloads/Project/3 博士项目/GitHub/KnowTuning/MACPO/pics/framework.png)
+![framework](./pics/framework.png)
 
 
 
@@ -41,22 +41,26 @@ Based on open-source training framework [LLaMA-Factory](https://github.com/hiyou
 ### Initialization of positve agents
 
 ```
-sh dolly/sft_dolly.sh
-sh medquad/sft_medquad.sh
+sh scripts/***/weak_pos.sh
+sh scripts/***/strong_pos.sh
 ```
 
 ### Initialization of negative agents
 
 ```
-sh dolly/ka_dolly.sh
-sh medquad/ka_medquad.sh
+sh scripts/***/weak_neg.sh
+sh scripts/***/strong_neg.sh
 ```
 
 ### Iterative training
 
 ```
-sh dolly/kc_dolly.sh
-sh medquad/kc_medquad.sh
+sh scripts/***/weak_pos_1.sh
+sh scripts/***/weak_pos_2.sh
+sh scripts/***/weak_pos_3.sh
+sh scripts/***/strong_pos_1.sh
+sh scripts/***/strong_pos_2.sh
+sh scripts/***/strong_pos_3.sh
 ```
 
 ### Test

@@ -16,7 +16,7 @@ Please note download [LLaMA-Factory-files](https://pypi.org/project/llmtuner/0.5
 
 ## Datasets
 
-**HH-Helpful**, HH-Harmless and PKU-SafeRLHF in the 
+The data for weak teachers and strong students initialization and iterative optimization are placed in
 
 ```
 data/...
@@ -38,34 +38,24 @@ model/...
 
 Based on open-source training framework [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), following below instructions for training.
 
-### Initialization of positve agents
+### Initialization
 
 ```
-sh scripts/***/weak_pos.sh
-sh scripts/***/strong_pos.sh
-```
-
-### Initialization of negative agents
-
-```
-sh scripts/***/weak_neg.sh
-sh scripts/***/strong_neg.sh
+sh scripts/***/***/pos_initial.sh
+sh scripts/***/***/neg_initial
 ```
 
 ### Iterative training
 
 ```
-sh scripts/***/weak_pos_1.sh
-sh scripts/***/weak_pos_2.sh
-sh scripts/***/weak_pos_3.sh
-sh scripts/***/strong_pos_1.sh
-sh scripts/***/strong_pos_2.sh
-sh scripts/***/strong_pos_3.sh
+sh scripts/***/***/pos_stage1.sh
+sh scripts/***/***/pos_stage2.sh
+sh scripts/***/***/pos_stage3.sh
 ```
 
-### Test
+### Test_generation
 
 ```
-sh dolly/test_dolly.sh
-sh medquad/test_medquad.sh
+sh scripts/***/***/test.sh
 ```
+

@@ -1,0 +1,19 @@
+trl==0.7.11
+torch==2.0.1
+deepspeed==0.13.1
+transformers==4.38.1
+typing_extensions==4.8.0
+bitsandbytes==0.41.3
+tokenizers==0.15.2
+huggingface-hub==0.23.4
+tiktoken==0.6.0
+peft==0.10.0
+gradio==3.50.2
+einops transformers_stream_generator
+sentencepiece==0.2.0
+protobuf==4.25.3
+jieba==0.42.1
+rouge-chinese==1.0.3
+anaconda-client==1.11.2
+conda-repo-cli==1.0.41
+datasets==2.17.1

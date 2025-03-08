@@ -58,4 +58,12 @@ sh scripts/***/***/pos_stage3.sh
 ```
 sh scripts/***/***/test.sh
 ```
+Citation
+If this work is helpful to you, welcome to cite our paper as:
 
+@inproceedings{lyu2025macpo,
+	title        = {{MACPO}: Weak-to-Strong Alignment via Multi-Agent Contrastive Preference Optimization},
+	author       = {Yougang Lyu and Lingyong Yan and Zihan Wang and Dawei Yin and Pengjie Ren and Maarten de Rijke and Zhaochun Ren},
+	year         = 2025,
+	booktitle    = {Proceedings of ICLR}
+}

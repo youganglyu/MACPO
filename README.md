@@ -61,18 +61,11 @@ sh scripts/***/***/test.sh
 ## Citation
 If this work is helpful to you, welcome to cite our paper as:
 
-@article{DBLP:journals/corr/abs-2410-07672,
-  author       = {Yougang Lyu and
-                  Lingyong Yan and
-                  Zihan Wang and
-                  Dawei Yin and
-                  Pengjie Ren and
-                  Maarten de Rijke and
-                  Zhaochun Ren},
-  title        = {{MACPO:} Weak-to-Strong Alignment via Multi-Agent Contrastive Preference
-                  Optimization},
-  journal      = {CoRR},
-  volume       = {abs/2410.07672},
-  year         = {2024},
-  url          = {https://doi.org/10.48550/arXiv.2410.07672},
+```
+@inproceedings{lyu2025macpo,
+	title        = {{MACPO}: Weak-to-Strong Alignment via Multi-Agent Contrastive Preference Optimization},
+	author       = {Yougang Lyu and Lingyong Yan and Zihan Wang and Dawei Yin and Pengjie Ren and Maarten de Rijke and Zhaochun Ren},
+	year         = 2025,
+	booktitle    = {Proceedings of ICLR}
 }
+```

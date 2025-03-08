@@ -58,7 +58,7 @@ sh scripts/***/***/pos_stage3.sh
 ```
 sh scripts/***/***/test.sh
 ```
-Citation
+## Citation
 If this work is helpful to you, welcome to cite our paper as:
 
 @inproceedings{lyu2025macpo,

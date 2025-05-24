@@ -24,7 +24,7 @@ data/...
 
 ## Models
 
-Download Llama2-7b-base, Mistral-7b-v0.1-base and Llama3-8b-base in the model folder
+Download Llama2-7b-base, Mistral-7b-v0.1-base, Llama3-8b-base, Llama2-70b-base in the model folder
 
 ```
 model/...
